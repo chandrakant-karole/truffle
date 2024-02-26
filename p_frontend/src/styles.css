@@ -1,0 +1,21 @@
+    /* You can add global styles to this file, and also import other style files */
+    
+    @import '~bootstrap/dist/css/bootstrap.css';
+    body {
+        margin: 0;
+    }
+    
+    .container {
+        min-height: calc(100% - 100px);
+        /* Ajustez la hauteur du pied de page (par exemple, 100px) */
+        overflow-y: auto;
+        /* height: 100vh;*/
+    }
+    
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #f8f9fa;
+        /* Ajoutez la couleur de fond souhaitée */
+    }

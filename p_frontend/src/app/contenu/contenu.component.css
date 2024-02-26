@@ -1,0 +1,20 @@
+.justify-text {
+    text-align: justify;
+}
+
+.container {
+    /* Ajustez la hauteur du pied de page (par exemple, 100px) */
+    overflow-y: auto;
+    /* Ajustez la valeur selon vos besoins */
+}
+
+
+/* Ajoutez cette définition dans votre fichier CSS */
+
+.custom-card {
+    width: 100%;
+    height: 100%;
+    /* Ajustez la valeur selon vos besoins */
+    margin: auto;
+    /* Pour centrer la carte horizontalement */
+}

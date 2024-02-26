@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+.container {
+    min-height: calc(100vh - 100px);
+    /* Ajustez la hauteur du pied de page (par exemple, 100px) */
+    overflow-y: auto;
+    /* Ajustez la valeur selon vos besoins */
+}
+
+
+/* app.component.css */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    /* Ajoutez la couleur de fond souhaitée */
+}
+
+.main-container {
+    background-image: url('src/assets/images/blockchainimg.png');
+    /* Remplacez le chemin par le chemin réel de votre image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    /* Ajoutez d'autres styles au besoin */
+}

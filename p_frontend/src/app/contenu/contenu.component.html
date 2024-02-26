@@ -1,0 +1,27 @@
+<div class="container d-flex align-items-center justify-content-center " style="min-height: 80vh;">
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <div class="card text-white bg-dark custom-card">
+                <div class="card-body ">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div style="margin-right: 20px;">
+                            <h1 class="card-title  pb-0 ">Bienvenue</h1>
+                            <p class="card-text mt-0 pt-0 justify-text mb-4 ms-3">Nous sommes ravis de vous accueillir dans l'univers innovant de la finance décentralisée pour vous offrir des solutions de prêt sécurisées, transparentes et efficaces.</p>
+                            <!-- Autres contenus de bienvenue peuvent être ajoutés ici -->
+                            <div class="d-flex justify-content-start align-items-center ">
+                                <a routerLink="/connexion" class="btn bg-success text-white">Se connecter</a>
+                                <button (click)="connectWallet()" class="btn bg-success text-white" style="margin-left: 10px;">{{ connectedAddress ? shortenAddress(connectedAddress) : 'Connect Wallet' }}</button>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column">
+
+                            <div class="ms-3 mb-3 " style="order: 2;">
+                                <img src="assets/images/logo.png" alt="logo" width="300" height="300" class="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

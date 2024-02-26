@@ -1,0 +1,19 @@
+.main-container {
+    background-image: url('src/assets/images/blockchainimg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+.custom-card {
+    width: 100%;
+    /* Ajustez la largeur selon vos besoins */
+    height: 300px;
+    /* Ajustez la hauteur selon vos besoins */
+}
+
+.justified-text {
+    text-align: justify;
+}
