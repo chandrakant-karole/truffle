@@ -10,8 +10,15 @@
                 <div class="card text-white bg-dark custom-card">
                     <div class="card-body d-flex flex-column justify-content-between align-items-center">
                         <h3 class="card-title ms-2 mt-3">Demander un prêt</h3>
-                        <p class="mt-3 justified-text">Bank Finance vous offre la possibilité de réaliser vos projets grâce à nos solutions de prêt flexibles et avantageuses. Demandez dès maintenant votre prêt et concrétisez vos ambitions financières avec nous.</p>
-                        <button class="btn bg-success text-white mt-auto">Demander un prêt</button>
+                        <p class="mt-3 justified-text">Bank Finance vous offre la possibilité de réaliser vos projets
+                            grâce à nos solutions de prêt flexibles et avantageuses. Demandez dès maintenant votre prêt
+                            et concrétisez vos ambitions financières avec nous.</p>
+                        <!-- <button class="btn bg-success text-white mt-auto">Demander un prêt</button> -->
+                        <div class="d-flex align-items-center justify-content-center">
+                            <button (click)="CalculateInterest()" class="btn bg-success text-white mt-auto">Calculate
+                                Interest</button>
+                            <h3 class="ms-2 mb-0">{{TotalAmountValue ? TotalAmountValue : ""}}</h3>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -22,8 +29,11 @@
                 <div class="card text-white bg-dark custom-card">
                     <div class="card-body d-flex flex-column justify-content-between align-items-center">
                         <h3 class="card-title ms-2 mt-3">Prêter</h3>
-                        <p class="mt-3 justified-text">Contribuez au succès des projets et des rêves en prêtant votre soutien financier. Avec Bank Finance, vous pouvez investir dans l'avenir et obtenir des rendements attrayants tout en aidant d'autres à réaliser leurs objectifs.</p>
-                        <button class="btn bg-success text-white mt-auto">Prêter</button>
+                        <p class="mt-3 justified-text">Contribuez au succès des projets et des rêves en prêtant votre
+                            soutien financier. Avec Bank Finance, vous pouvez investir dans l'avenir et obtenir des
+                            rendements attrayants tout en aidant d'autres à réaliser leurs objectifs.</p>
+                        <!-- <button class="btn bg-success text-white mt-auto">Prêter</button> -->
+                        <button (click)="RepayAmount()" class="btn bg-success text-white mt-auto">Repay Loan</button>
                     </div>
                 </div>
             </div>
